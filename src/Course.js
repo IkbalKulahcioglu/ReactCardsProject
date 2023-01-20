@@ -1,7 +1,14 @@
 import React from 'react'
 
-export const Course = () => {
+export const Course = ({title,description}) => {
+    // const title =props.title;
+    // const description =props.description;
+    // const {title, description}=props;
   return (
-    <div>Course</div>
+    <div> 
+    <div>{title}</div>
+    <div>{description}</div>
+    </div>
+    
   )
 }
