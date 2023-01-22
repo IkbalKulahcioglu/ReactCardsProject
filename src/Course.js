@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
-export const Course = ({title,description}) => {
-    // const title =props.title;
-    // const description =props.description;
-    // const {title, description}=props;
+export const Course = ({image, title, description }) => {
+  // const title =props.title;
+  // const description =props.description;
+  // const {title, description}=props;
   return (
-    <div> 
-    <div>{title}</div>
-    <div>{description}</div>
+    <div>
+      <img src={image} alt=""/>
+      <div>{title}</div>
+      <div>{description}</div>
     </div>
-    
-  )
-}
+  );
+};
